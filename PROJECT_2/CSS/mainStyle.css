@@ -1,0 +1,136 @@
+@media (min-width: 870px){
+    body{
+        margin: 0;
+		padding: 0;
+	}
+	
+	ul{
+		list-style: none;
+		width: 100%;
+        background-color: #ffd000;
+        overflow: hidden;
+        padding: 0;
+		margin: 0; 
+		position: fixed;
+	}
+	
+	li{
+		float: left;
+	}
+	
+	li a{
+        display:block;
+		text-decoration: none;
+        color:white;
+		padding: 8px 10px;
+		font-size: 35px;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	}
+
+	li a:hover{
+		background-color: maroon;
+	}
+
+	.active{
+		background-color: green;
+	}
+	
+
+	#headerImage{
+		background-image: url(https://res.cloudinary.com/adebayo59/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1586542396/kolingtonFahion_zg1mit.png);
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 350px;
+	}
+
+	#titleheading{
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 40px;
+		text-align: center;
+		color: maroon;
+		background-color: white;
+		margin-bottom: 130px;
+		margin-left: 200px;
+		margin-left: 420px;
+		padding-top: 80px;
+		padding-right: 20px;
+		width: 30%;
+	}
+
+    
+    .fashionGrid{
+        display:grid;
+        grid-template-columns: 40% 60%;
+		background-color: whitesmoke;
+		width:100%;
+		height: 100%;
+		grid-gap:10px;
+		margin-left: 5px;
+		margin-right: 10px;
+		padding-bottom: 30px;
+	
+	}
+	
+	#welcome{
+		font-size: 30px;
+		text-align: center;
+		color: maroon;
+		padding-left: 200px;
+		padding-top:50px;
+		margin-bottom: 120px;
+		width: 780px;
+	}
+
+	.MenStyle{
+		background-color: dodgerblue;
+		font-size: 20px;
+		padding: 5px;
+	}
+
+	#top,#top2, #top3, #top4{
+		padding-bottom: 30px;
+	}
+	
+	.displayFashion,.femaleFashion, .kidsFashion{
+		border: 1px solid black;
+		width: 100%;
+		height:100%;
+		background-color: lightgrey;
+
+	}
+
+	#displaySales{
+		display: none;
+
+	}
+
+	.women-Style{
+		background-color: lightpink;
+		font-size: 20px;
+		padding: 5px;
+	}
+
+	.kidsstyle{
+		background-color: lightgreen;
+		padding: 5px;
+		font-size: 20px;
+	}
+
+	.childrens{
+		display: flex;
+		padding: 5px;
+		flex: auto;
+	}
+
+	img{
+		max-width:100%;
+		height: auto;
+	}
+
+	.mens{
+		display: flex;
+		padding: 5px;
+		flex: auto;
+	}
+}

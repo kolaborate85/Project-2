@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="CSS/mainStyle.css">
+<script src = "app.js"></script>
+<meta name="viewport" content="width=device-width initial-scale =1.0">
+
+
+<div id = "headerImage">
+<div id = "titleheading"> Expresso fast Fashion. Cutting Edge Fashion.</div>
+</div>
+</head>
+
+<body>
+<nav class="navbar__menu">
+    <!-- Navigation starts as empty UL that will be populated with JS -->
+    <ul id="navbar__list"></ul>
+  </nav>
+
+
+  <section id="section1" data-nav="Section 1">
+    <div id = welcome>
+    <h1>Welcome to expresso Fashion</h1>
+    <p>We have always been at the cutting edge of modern fashion since 1984. It is not easy task, but
+        we have always managed to put quality and custmer satifaction above everything we do. We have always managed to 
+        adapt with technology has it relates with our industry.
+    </p>
+    </div>
+</section>
+
+<div class = "fashionGrid">
+<div class = "MenStyle">
+  <section id="section2" data-nav="Section 2">
+    <h1>Top Mens's collection</h1>
+<p>Our men's fashion is at the cutting edge of modern fashion. Over the years, we continue to set the trend 
+    for quality and style in mens' fashion. We believe that every man must dress to the occassion. we offer a wide variety of 
+    clothing style from casual to formal. Check out our latest collection down below:
+</p>
+<button id = "triggerMen" onclick = "checkMen()">Click to View</button>
+<div id = "SalesDispay">
+</div>
+</div>
+
+<div class = "displayFashion">Items Display Here
+    <div class = "mens">
+    <div id = "top" ><img src ="images/men-shirt.png">Original Price: $19.88<br>
+        <button id = "newSales" onclick = "salesMen()">New Price</button>
+        <div id = "displayMens">
+        </div>
+    </div> 
+
+    <div id = "top2"><img src= "images/blue-menshirt2.png">Original Price: $19.88</div>
+
+    <div id = "top3"><img src ="images/men-pants.png">Orginal Price: $22.88<br>
+        <button id = "newSales1" onclick = "salesMen2()">New Price</button>
+        <div id = "displaynewItem">
+        </div>
+    </div>
+    <div id = "top4"><img src ="images/men-pants2.png">Original Price: $30.18</div>
+    </div>
+
+</section>
+</div>
+
+
+<div class = "women-Style">
+    <section id="section3" data-nav="Section 3">
+<h1>Top women's collection</h1>
+<p>We have one of the best ultra modern clothing styles for women in all our stores. From sexy laungeries to office outfit,
+we have it all. So we hope you spend some time to look at all we have to offer, and make up your mind. And while you do, 
+you can also invite your friends as well.
+</p>
+<button id = "trigger" onclick = "triggerView()">Click to View</button>
+<div id = "displaySales">
+<img src = "images/menSales.png">
+</div>
+</div>
+
+<div class = "femaleFashion">
+    <p>Items Display Here</p>
+    <img src = "images/womensFashion/womens' style1.png">
+    <img src = "images/womensFashion/womens' style2.png">
+    <img src = "images/womensFashion/womens' style3.png">
+</section>
+</div>
+
+
+
+<div class = "kidsstyle">
+  <section id="section4" data-nav="Section 4">
+    <h1>Top children's collection</h1>
+    <p>No one is too old or young to make a fashion statement. As you can see we have vairety of style for different age categories
+    please have a look at our top collection for children.
+    </p>
+    <button id = "kidstrigger" onclick = "kidsview()">Click to View</button>
+    <div id = "kidsDisplay"></div>
+</div>
+
+<div class = "kidsFashion">Items Display Here
+    <div class = "childrens">
+    <div id = "teenager"><img src = "images/teenage-boy.png">$26.17</div>
+    <div id = "boy"><img src = "images/boysStyle.png">$17.08</div>
+    <div id = "girl"><img src = "images/girlStyle.png">$20.12</div>
+    
+    </div>
+</section>
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
